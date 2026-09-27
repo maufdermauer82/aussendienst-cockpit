@@ -1,0 +1,20 @@
+{
+  "name": "aussendienst-cockpit",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Außendienst-Cockpit: statische Web-App auf Supabase",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "npx --yes http-server web -p 8000 -c-1"
+  },
+  "devDependencies": {
+    "@fontsource/barlow": "5.1.0",
+    "@fontsource/barlow-semi-condensed": "5.1.0",
+    "@resvg/resvg-js": "2.6.2",
+    "@supabase/supabase-js": "2.45.4",
+    "htm": "3.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.4.5"
+  }
+}

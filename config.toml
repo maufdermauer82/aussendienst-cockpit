@@ -1,0 +1,8 @@
+# Minimalkonfiguration für die Supabase CLI (optional, nur für lokale Entwicklung/Deploy per CLI)
+project_id = "mjrqviuybuhqlrgylyxm"
+
+[functions.admin-users]
+verify_jwt = true
+
+[functions.lead-reminders]
+verify_jwt = false
